@@ -1,46 +1,113 @@
-header {
-    border: 1px solid black;
+body {
+    background-color: #a6192d;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-main {
-    font-family: Arial, Helvetica, sans-serif;
+.container {
+    background-color: white;
+    margin: 50px auto left;
+    padding: 20px;
+    padding-right: 350px;
+    margin-left: 50px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
+    border-top: 20px solid #3D3935;
+    border-bottom: 40px solid #3D3935;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
-    border: 3px dotted green;
-    margin: 50px;
-    padding: 20px 30px 40px 50px;
-    width: 50%;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+.activities {
+    background-color: #E9EFF1;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 1%;
     position: relative;
-    top: 100px;
-    left: 50px;
+    padding-bottom: 60px;
 }
 
-a {
-    background-color: cyan;
+h2, h3 {
+    color: #a6192ded;
+    font-size: 18px;
 }
 
-section {
-    padding: 10px;
-    border: 1px dashed red;
-}
-.sec1 {
-    color: #30fb52;
-    float: left;
-}
-
-#mainpart {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-form {  
-    clear: left;
-}
-
-table, th, td {
-    border: 1px solid black;
+p {
+    font-size: 14px;
 }
 
 table {
+    width: 100%;
     border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    text-align: left;
+    background-color: #DDDDDD;
+}
+
+.input-weight {
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.input-gradeNum, .input-gradeDen {
+    width: 15%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.result {
+    text-align: center;
+}
+
+.weighted-button {
+    padding: 10px;
+    background-color: #B51119;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8%;
+    position: absolute;
+    right: 115px;
+    bottom: 20px;
+
+}
+
+.mean-button {
+    padding: 10px 20px;
+    background-color: #B51119;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8%;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.weighted-button:hover, .mean-button:hover {
+    background-color: #7a0000;
 }
